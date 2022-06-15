@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Add_Element{
 
@@ -68,6 +66,6 @@ class Add_Element{
         System.out.println("At the End : "+Arrays.toString(Res));
         System.out.println("At the given Position : "+Arrays.toString(Abc));
         System.out.println("At the Front : "+Arrays.toString(ans));
-
+        sc.close();
     }
 }

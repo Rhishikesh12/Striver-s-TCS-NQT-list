@@ -5,7 +5,6 @@ class additonOfArrEle{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] a = new int[n];
-        int sum = 0;
 
         for(int i = 0; i < n ; i++){
             a[i] = sc.nextInt();
@@ -13,6 +12,7 @@ class additonOfArrEle{
 
         int ans = count(a);
         System.out.print(ans);
+        sc.close();
     }
 
     static int count(int[] a){

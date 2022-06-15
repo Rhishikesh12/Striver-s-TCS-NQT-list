@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.ArrayList;
 
 class MinMax{
     public static void main(String args[]){
@@ -13,6 +12,7 @@ class MinMax{
 
         System.out.println("Maximum value in the array is:"+max(a));
         System.out.println("Minimum value in the array is:"+min(a));
+        sc.close();
     }
 
     public static int max(int [] a) {

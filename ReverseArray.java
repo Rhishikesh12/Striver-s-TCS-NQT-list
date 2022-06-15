@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class ReverseArray{
     public static void main(String args[]){
@@ -19,6 +17,7 @@ class ReverseArray{
 
         // System.out.print("Array After reverse(using for loop) : ");
         // ReverseArr(arr);
+        sc.close();
     }
 
     // static void ReverseArr(int[] a){
