@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_Element",
+            "request": "launch",
+            "mainClass": "Add_Element",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch AverageOfEle",
+            "request": "launch",
+            "mainClass": "AverageOfEle",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfArray",
+            "request": "launch",
+            "mainClass": "MedianOfArray",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMax",
+            "request": "launch",
+            "mainClass": "MinMax",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangeAcsDes",
+            "request": "launch",
+            "mainClass": "RearrangeAcsDes",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchElement",
+            "request": "launch",
+            "mainClass": "SearchElement",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondSmallAndLarge",
+            "request": "launch",
+            "mainClass": "SecondSmallAndLarge",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch additonOfArrEle",
+            "request": "launch",
+            "mainClass": "additonOfArrEle",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch removeDuplicates",
+            "request": "launch",
+            "mainClass": "removeDuplicates",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        }
+    ]
+}

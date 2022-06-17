@@ -19,7 +19,7 @@ public class SearchElement {
 
     static void SearchElementHelper(int[] a, int n, int k){
         int low = 0, high = n - 1;
-        int ans = -1;
+        int ans = 0;
         while (low <= high) {
             int mid = (low + high) / 2;
                 if (a[mid] > k) {

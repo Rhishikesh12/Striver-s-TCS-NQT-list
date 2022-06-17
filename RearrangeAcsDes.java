@@ -1,9 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * RearrangeAcsDes
- */
 public class RearrangeAcsDes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
