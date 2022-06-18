@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TransposeMatrix",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.TransposeMatrix",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mapping2D",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.Mapping2D",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDArray",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.TwoDArray",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
             "name": "Launch frequencyCount",
             "request": "launch",
             "mainClass": "frequencyCount",

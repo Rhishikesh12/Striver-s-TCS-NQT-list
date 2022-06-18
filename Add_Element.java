@@ -4,12 +4,13 @@ class Add_Element{
 
     static int[] AddatEnd(int[] a,int n,int ele){
 
-        int newArr[] = new int[n+1];
+        int newArr[] = new int[n+1];   // 0 0 0 0 0 0
 
         for(int i = 0; i < n; i++){
-            newArr[i] = a[i];
+            newArr[i] = a[i];        // 1 2 3 4 5=>n    
         }
-        newArr[n] = ele;
+
+        newArr[n] = ele;             // 1 2 3 4 5 0 
         return newArr;
 
     }
@@ -18,11 +19,14 @@ class Add_Element{
 
         int newArr[] = new int[n+1];
 
+        // 1 2 3 4 5 original  
+        // 1 2 3 6 4 5 new arr
+        // 0 1 2 3 4
         for(int i = 0; i < newArr.length; i++){
         
-            if(i < pos - 1){        //insert all elements till the given POSITION
+            if(i < pos - 1){        //insert all elements till the given POSITION  
                 newArr[i] = a[i];
-            }else if(i == pos - 1 ){    //insert your "ele" at POSITION
+            }else if(i == pos - 1){    //insert your "ele" at POSITION
                 newArr[i] = ele;
             }else{              // Insert rest of the array        
                 newArr[i] = a[i-1];
@@ -37,7 +41,7 @@ class Add_Element{
         newArr[0] = ele;
 
         for(int i = 0; i < n; i++){
-            newArr[i+1] = a[i];
+            newArr[i+1] = a[i];            // 6 0 0 0 0 0
         }
         return newArr;
     }

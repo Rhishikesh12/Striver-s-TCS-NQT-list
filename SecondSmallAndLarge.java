@@ -32,7 +32,7 @@ public class SecondSmallAndLarge {
         int small = Integer.MAX_VALUE;     //   999     // 1
         int second_small = Integer.MAX_VALUE;
         int large = Integer.MIN_VALUE;     //   -999       5
-        int second_large = Integer.MIN_VALUE;
+        int second_large = Integer.MIN_VALUE;               
 
         for (int i = 0;i < n;i++)
         {                  // 999      1
@@ -41,7 +41,7 @@ public class SecondSmallAndLarge {
         }
 
         for (int i = 0;i < n;i++)
-        {       // 2         // 999                 //1 
+        {       // 2         // 999           2     //1 
             if (arr[i] < second_small && arr[i] != small)    // 1 2 3 4 5  max = 999
             {          
                 second_small = arr[i];
