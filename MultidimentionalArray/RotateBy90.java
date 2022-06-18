@@ -2,8 +2,7 @@ package MultidimentionalArray;
 
 import java.util.Scanner;
 
-
-public class TransposeMatrix {
+public class RotateBy90 {
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter Number of rows: ");
@@ -18,25 +17,10 @@ public class TransposeMatrix {
             }
         }
 
-        // Transpose(arr,m,n);
         inplaceTranspose(arr);
+        ReverseMatrixRows(arr,m,n);
         sc.close();
     }
-
-
-    // Done Using Extra Space or We have used here extra 2D array to Store Result/ Transposed matrix.
-    // static int[][] Transpose(int arr[][], int m, int n){
-        
-    //     int[][] res = new int[n][m];
-    //     for (int i = 0; i < n; i++) {
-    //         for (int j = 0; j < m; j++) {
-    //             res[i][j] = arr[j][i];
-    //         }
-    //     }
-    //     display(res);
-    //     return res;
-    // }
-
     static int[][] inplaceTranspose(int arr[][]){
 
         for (int i = 0; i < arr.length; i++) {
@@ -50,11 +34,24 @@ public class TransposeMatrix {
         return arr;
     }
 
+    static int[][] ReverseMatrixRows(int[][] arr, int m, int n){
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n/2; j++){
+                int temp = arr[i][j];
+                arr[i][j] = arr[i][n-1-j];
+                arr[i][n-1-j] = temp;
+            }
+        }
+        Display(arr);
+        return arr;
+    }
+
     static void Display(int[][] arr){
         int m = arr.length;
         int n = arr[0].length;
 
-        System.out.println("Genterated Matrix:");
+        System.out.println("Matrix:");
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
                 System.out.print(arr[i][j]+ " ");
@@ -62,16 +59,4 @@ public class TransposeMatrix {
             System.out.println("");
         }
     }
-
-    // static void display(int[][] res){
-    //     int m =res.length;
-    //     int n = res[0].length;
-    //     System.out.println("Genterated Matrix:");
-    //     for(int i = 0; i < m; i++){
-    //         for(int j = 0; j < n; j++){
-    //             System.out.print(res[i][j]+ " ");
-    //         }
-    //         System.out.println("");
-    //     }
-    // }
 }

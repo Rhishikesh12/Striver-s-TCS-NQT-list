@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RotateBy90",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.RotateBy90",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseRows",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.ReverseRows",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiplicationMatrix",
             "request": "launch",
             "mainClass": "MultidimentionalArray.MultiplicationMatrix",
