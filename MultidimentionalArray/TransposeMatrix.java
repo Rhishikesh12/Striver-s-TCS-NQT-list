@@ -1,7 +1,12 @@
 package MultidimentionalArray;
 
-import java.util.Arrays;
 import java.util.Scanner;
+
+/*
+
+Watch Jennys lecture C-56,57,58,59,60,61
+
+*/ 
 
 public class TransposeMatrix {
     public static void main(String[] args) {
@@ -19,26 +24,28 @@ public class TransposeMatrix {
         }
 
         Transpose(arr,m,n);
-        System.out.println(Arrays.toString(Transpose(arr,m,n)));
         sc.close();
     }
 
     static int[][] Transpose(int arr[][], int m, int n){
         
         int[][] res = new int[n][m];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                res[j][i] = arr[i][j];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                res[i][j] = arr[j][i];
             }
         }
+        display(res);
         return res;
     }
 
-    static void display(int[][] arr, int m, int n){
+    static void display(int[][] res){
+        int m =res.length;
+        int n = res[0].length;
         System.out.println("Genterated Matrix:");
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
-                System.out.print(arr[i][j]+ " ");
+                System.out.print(res[i][j]+ " ");
             }
             System.out.println("");
         }

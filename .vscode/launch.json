@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MultiplicationMatrix",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.MultiplicationMatrix",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixOp",
+            "request": "launch",
+            "mainClass": "MultidimentionalArray.MatrixOp",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
             "name": "Launch TransposeMatrix",
             "request": "launch",
             "mainClass": "MultidimentionalArray.TransposeMatrix",

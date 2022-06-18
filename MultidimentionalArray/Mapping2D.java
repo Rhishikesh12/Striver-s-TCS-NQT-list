@@ -23,7 +23,6 @@ public class Mapping2D {
                 arr[i][j] = sc.nextInt();
             }
         }
-
         AcceseElement(arr,m,n);
         sc.close();
     }
