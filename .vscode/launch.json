@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MazximumProduct",
+            "request": "launch",
+            "mainClass": "MazximumProduct",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
             "name": "Launch RotateBy90",
             "request": "launch",
             "mainClass": "MultidimentionalArray.RotateBy90",
