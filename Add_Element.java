@@ -56,7 +56,6 @@ class Add_Element{
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
-
         System.out.println("Enter element to be added:");
         int ele = sc.nextInt();
 
