@@ -8,6 +8,7 @@ public class sqrtBinarySeach {
         
         long i = sqrt(n);
         System.out.println(decimalNumbers(n, 3, i));
+        sc.close();
     }
 
     static long sqrt(int x){
@@ -33,7 +34,7 @@ public class sqrtBinarySeach {
         }
         return ans;
     }
-     // not workiing properl
+     // not workiing properly
     static double decimalNumbers(int x, int precision, long sol){
         int factor = 1;
         long ans = sol;

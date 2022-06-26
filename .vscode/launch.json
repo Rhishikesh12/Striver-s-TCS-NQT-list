@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java - GeeksForGeeks_ade79c95"
+        },
+        {
+            "type": "java",
             "name": "Launch sqrtBinarySeach",
             "request": "launch",
             "mainClass": "sqrtBinarySeach",
