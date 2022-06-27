@@ -13,6 +13,8 @@ public class MazximumProduct {
             arr[i] = sc.nextInt();
         }
 
+
+        
         BruteForce(arr);
         OptimalBruteForce(arr);
         // Optimal(arr);

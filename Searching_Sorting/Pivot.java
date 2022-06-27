@@ -4,6 +4,7 @@ public class Pivot {
         //  Given Rotated Array
         // We have to find the pivot of an array
         // rewatch the tutorial, concept is not clear yet
+        // also called as equiblirium of an array
         int arr[] = {7,9,1,2,3};
         int n = arr.length;
 

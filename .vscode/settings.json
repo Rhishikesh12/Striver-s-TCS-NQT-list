@@ -1,8 +1,9 @@
 {
     "git.ignoreLimitWarning": true,
     "java.project.sourcePaths": [
-        "Arrays",
         "Searching_Sorting",
-        "MultidimentionalArray"
+        "MultidimentionalArray",
+        "Arrays",
+        "Recursion"
     ]
 }
